@@ -1,3 +1,2 @@
-class Network:
-    def __init__(self):
-    
+import numpy as np
+import tensorflow as tf
