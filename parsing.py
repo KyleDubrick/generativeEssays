@@ -25,7 +25,7 @@ test1 = ["Hi this is a test #1! How's it going?", "hi this is a test how's it go
 test2 = ["and then he said:\"Wow! This is test #2.\"", "and the he said wow this is test"]
 test3 = ["Here\n Comes\n THAT\n BOIII\n 12345", "here comes that boiii"]
 test4 = [" My moMMa told me to forget11 about thiss1", "my momma told me to forget about thiss"]
-print(parse(test1[0]),"\n",test1[1],"\n\"",test1[1][len(test1[1]) - 1],"\"")
+print(parse(test1[0]) + "\n" + test1[1] + "\n\"" + test1[1][len(test1[1]) - 1] + "\"")
 
 # unparsed_textfiles = search_rfile("../Unparsed")
 # parsed_textfile = search_rfile("../Texts")
